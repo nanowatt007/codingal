@@ -1,0 +1,76 @@
+<!doctype html>
+
+<!-- Name, address, phone number, calendar -->
+
+<html>
+    <head>
+        <title>Forms for filling Personal Details</title>
+
+        <style>
+            html {
+                line-height: 1.7;
+                font-family: sans-serif;
+                padding: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend><b>Name</b></legend>
+                <label>First Name</label>
+                <input type="text" placeholder="First name here..."><br>
+
+                <label>Last Name</label>
+                <input type="text" placeholder="Last name here..."><br>
+
+                <label>Middle Name</label>
+                <input type="text" placeholder="Last name here...">
+            </fieldset>
+            <br>
+
+            <label>Address</label>
+            <input type="text"><br>
+            
+            <label>Phone Number</label>
+            <input type="number"><br>
+            
+            <label>Date of Birth</label>
+            <input type="date"><br>
+
+            <label>Gender</label><br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            <input type="radio" name="gender" value="Other">Other<br>
+
+            <label>Favorite subject</label>
+            <select>
+                <option value="None">--</option>
+                <option value="Math">Math</option>
+                <option value="Science">Science</option>
+                <option value="Social Studies">Social Studies</option>
+                <option value="Physical Education">Physical Education</option>
+                <option value="Visual Art">Visual Arts</option>
+            </select><br>
+            
+            <fieldset>
+                <legend><b>Files</b></legend>
+                <label>Profile Picture</label><br>
+                <input type="file" accept=".png" required><br>
+
+                <label>Marks</label><br>
+                <input type="file" accept=".pdf" required>
+            </fieldset>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <br><br><br><footer>Contact me!</footer>
+    </body>
+</html>
+
+
+<!-- LLMs, AI Tools, Machine Learning -->
